@@ -1,7 +1,7 @@
 male.tags :
-	grep -w MALE *.gender \
+	grep -w MALE 1.gender \
      |  grep -ow '#[[:alpha:]]*' |tr [A-Z] [a-z] |sort |uniq -c |sort -r > $@
 
 female.tags :
-	grep -w FEMALE *.gender \
+	grep -w FEMALE 1.gender \
      |  grep -ow '\#[[:alpha:]]*' |tr [A-Z] [a-z] |sort |uniq -c |sort -r > $@
