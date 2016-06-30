@@ -1,5 +1,5 @@
 def rt():
-    file = open("09.gender","r")
+    file = open("1.gender","r")
     file_out = open("noRT1.txt","w")
     for line in file:
         lijn = line.split()
