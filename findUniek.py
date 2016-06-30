@@ -1,6 +1,6 @@
 def findUniek():
-    file = open("femaletags.txt","r")
-    file_match = open("maletags.txt","r")
+    file = open("maletags.txt","r")
+    file_match = open("femaletags.txt","r")
     dictio = []
     for line in file:
         a, b = line.split()
