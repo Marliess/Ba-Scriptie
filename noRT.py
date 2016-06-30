@@ -1,5 +1,3 @@
-import sys
-
 def rt():
     file = open("1.gender","r")
     for line in file:
